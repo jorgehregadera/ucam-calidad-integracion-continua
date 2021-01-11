@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ucam-calidad-integracion-continua" />
         <module name="Calidad Integración Continua" />
       </profile>
     </annotationProcessing>

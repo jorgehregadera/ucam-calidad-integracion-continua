@@ -10,8 +10,8 @@ public class MatrizEdad extends Matriz{
 	public int[][] rellenarMatrizEdad (int posX, int posY) {
 		int [][] matrizEdad = new int [posX][posY];
 		for(int i=0; i<posX; i++) {
-			for(int j=0; j<posX; j++) {
-					matrizEdad[i][j]=0;
+			for(int j=0; j<posY; j++) {
+				matrizEdad[i][j]=0;
 			}
 		}
 		return matrizEdad;
